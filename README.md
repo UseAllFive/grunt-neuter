@@ -177,7 +177,7 @@ Type: `Boolean`
 
 Default: `false`
 
-Generates a source map for your JavaScript file using the [Mozilla source map generator](https://github.com/mozilla/source-map). Appends `//@ sourceMappingURL=my-file.js.map`, and drops a file named my-file.js.map in the same directory as the original.
+Generates a source map for your JavaScript file using the [Mozilla source map generator](https://github.com/mozilla/source-map). Appends `//# sourceMappingURL=my-file.js.map`, and drops a file named my-file.js.map in the same directory as the original.
 
 Unlike the previous sourceURL support, this *can* be used in production, because it becomes up to the client to do something about the source map or not (e.g. Firefox doesn't use them by default, though Chrome currently appears to always download the source map file).
 
